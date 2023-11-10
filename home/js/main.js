@@ -17,7 +17,5 @@ const viewer = new PANOLENS.Viewer({
 });
 
 viewer.add(panoramaImage);
-// viewer.OrbitControls.noZoom = true;
-// viewer.OrbitControls.noRotate = true;
 viewer.OrbitControls.enabled = false;
 viewer.tweenControlCenter( new THREE.Vector3(0, -1, 0), 0 );
